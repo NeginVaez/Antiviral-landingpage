@@ -1,0 +1,63 @@
+:root {
+  --text-font: "Poppins", sans-serif;
+}
+
+.heading {
+  background-image: url("./src/Rectangle\ 55.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1.77;
+}
+
+.container-fluid {
+  margin: 0;
+  position: relative;
+  height: 100%;
+}
+
+.upper-text {
+  color: white;
+  margin-top: 259px;
+  padding: 40px;
+}
+
+.title-h2 {
+  font-size: 60px;
+  margin-bottom: 26px;
+  -webkit-text-stroke: 1px #3fc4e0;
+  font-family: var(--text-font);
+  font-weight: 600;
+}
+
+.title-h1 {
+  font-size: 100px;
+  margin-bottom: 26px;
+  font-family: var(--text-font);
+  font-weight: 600;
+}
+
+.title-p {
+  font-size: 40px;
+  margin-bottom: 26px;
+  font-family: var(--text-font);
+  font-weight: 400;
+}
+
+.navbar-custom {
+  background-color: rgba(63, 196, 224, 0.3);
+  height: 90px;
+}
+
+.nav-item {
+  font-size: 30px;
+  font-family: var(--text-font);
+  font-weight: 600;
+  margin: 33px;
+}
+.nav-link{  color: #ffff;
+}
