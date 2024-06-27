@@ -1,9 +1,12 @@
 :root {
   --text-font: "Poppins", sans-serif;
 }
-
-.heading {
-  background-image: url("./src/Rectangle\ 55.png");
+.heading,
+.content-2,
+.content-3,
+.content-4,
+.content-6,
+footer {
   background-repeat: no-repeat;
   background-size: auto;
   -webkit-background-size: cover;
@@ -11,6 +14,9 @@
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
+}
+.heading {
+  background-image: url("./src/Group\ 98.png");
   aspect-ratio: 1.77;
 }
 
@@ -49,6 +55,7 @@
 }
 
 .navbar-custom {
+  position: relative;
   background-color: rgba(63, 196, 224, 0.3);
   height: 90px;
 }
@@ -59,5 +66,39 @@
   font-weight: 600;
   margin: 33px;
 }
-.nav-link{  color: #ffff;
+.nav-link {
+  color: #ffff;
+}
+
+.content-2 {
+  background-image: url("./src/Group\ 99.png");
+}
+.content-3 {
+  background-image: url("./src/Group\ 100.png");
+}
+
+.content-4 {
+  background-image: url("./src/Group\ 103.png");
+}
+.content-6 {
+  background-image: url("./src/Group\ 106.png");
+}
+
+footer {
+  background-image: url("./src/Group\ 95.png");
+}
+
+.disease-images,
+.video,
+.technology {
+  padding-bottom: 90px;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+.technology {
+  width: 50%;
+}
+.video {
+  width: 70%;
 }
