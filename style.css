@@ -64,7 +64,6 @@ footer {
 }
 
 .navbar-custom {
-  position: relative;
   background-color: rgba(63, 196, 224, 0.3);
   height: 90px;
 }
@@ -75,8 +74,12 @@ footer {
   font-weight: 600;
   margin: 33px;
 }
-.nav-link {
-  color: #ffff;
+.nav-pills .nav-link.active {
+  background-color: #ffff;
+}
+
+.nav-link:active{
+  background-color: white;
 }
 
 .content-2 {
@@ -106,6 +109,8 @@ footer {
   margin: 0 auto;
   width: 80%;
 }
+
+
 .technology {
   width: 50%;
 }
