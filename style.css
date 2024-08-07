@@ -7,8 +7,9 @@ img:hover {
   transition: ease-in 100ms;
 }
 
-.girl-img:hover{
-  opacity: 1;
+.avastavir-logo {
+  width: 150px;
+  margin-left: 50px;
 }
 .heading,
 .content-2,
@@ -25,7 +26,7 @@ footer {
   background-position: center;
 }
 .heading {
-  background-image: url("./src/Group\ 98.png");
+  background-image: url("./src/Group\ 108.png");
   aspect-ratio: 1.77;
 }
 
@@ -38,11 +39,11 @@ footer {
 .upper-text {
   color: white;
   margin-top: 259px;
-  padding: 40px;
+  padding: 80px;
 }
 
 .title-h2 {
-  font-size: 60px;
+  font-size: 20px;
   margin-bottom: 26px;
   -webkit-text-stroke: 1px #3fc4e0;
   font-family: var(--text-font);
@@ -50,26 +51,26 @@ footer {
 }
 
 .title-h1 {
-  font-size: 100px;
+  font-size: 44px;
   margin-bottom: 26px;
   font-family: var(--text-font);
   font-weight: 600;
 }
 
 .title-p {
-  font-size: 40px;
+  font-size: 18px;
   margin-bottom: 26px;
   font-family: var(--text-font);
   font-weight: 400;
 }
 
 .navbar-custom {
-  background-color: rgba(63, 196, 224, 0.3);
-  height: 90px;
+  height: 50px;
+  background-color: rgb(23, 79, 102, 0.9);
 }
 
 .nav-item {
-  font-size: 30px;
+  font-size: 18px;
   font-family: var(--text-font);
   font-weight: 600;
   margin: 33px;
@@ -78,7 +79,7 @@ footer {
   background-color: #ffff;
 }
 
-.nav-link:active{
+.nav-link:active {
   background-color: white;
 }
 
@@ -102,18 +103,325 @@ footer {
 
 .disease-images,
 .video,
-.technology,
-.images-2 {
-  padding-bottom: 90px;
+.technology {
+  padding: 50px;
   display: block;
   margin: 0 auto;
-  width: 80%;
+}
+.images-2 {
+  padding: 50px;
+  justify-content: center;
 }
 
-
-.technology {
-  width: 50%;
-}
+.technology,
 .video {
   width: 70%;
+}
+.outbreak {
+  padding: 90px;
+}
+
+.videoplayer {
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  width: auto;
+  height: auto;
+}
+.content-3,
+.content-5,
+.content-6,
+.content-7,
+.content-7-text {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
+}
+.content-5 {
+  color: black;
+  font-weight: 400;
+}
+.content1 {
+  font-weight: 600;
+}
+.content-1 > h1 {
+  font-size: 36px;
+  margin-top: 100px;
+}
+
+.content-1 > h2 {
+  font-size: 20px;
+}
+.content-2 > h2,
+.content-3 > h2,
+.content-4 > h2,
+.content-6 > h2 {
+  font-size: 20px;
+  padding: 90px;
+}
+.content-1 > p,
+.content-7 > p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.content-2 > p,
+.content-4 > p,
+.content-5 > p,
+.content-6 > p {
+  font-size: 32px;
+  padding-bottom: 100px;
+  margin: 0;
+}
+.content-5 > p,
+.p2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content-5 > h2,
+#contact > h2 {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 36px;
+}
+.content-5 > h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+
+.content-7-text > h2 {
+  font-size: 36px;
+}
+
+#contact {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  color: white;
+  padding-top: 60px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.input {
+  background-color: #3fc4e0;
+  color: white;
+  width: 100%;
+  height: 60px;
+  border: 1px, white;
+  border-radius: 3px;
+}
+
+.back-img {
+  width: 30%;
+}
+
+@media (max-width: 1258px) {
+  .video {
+    width: "300px";
+    height: "170px";
+  }
+  .technology {
+    padding: 0;
+    width: 85%;
+  }
+
+  .upper-text {
+    padding: 40px 40px 40px 0;
+    margin-top: 150px;
+  }
+  .title-h2 {
+    font-size: 18px;
+  }
+
+  .title-h1 {
+    font-size: 40px;
+  }
+
+  .title-p {
+    font-size: 15px;
+  }
+  .nav-item {
+    font-size: 12px;
+    font-family: var(--text-font);
+    font-weight: 500;
+    margin: 23px;
+  }
+  .back-img {
+    width: 50%;
+  }
+}
+@media (max-width: 965px) {
+  .videoplayer {
+    width: 300px;
+    height: 170px;
+  }
+  .technology {
+    padding: 0;
+    width: 85%;
+  }
+
+  .upper-text {
+    padding: 40px 40px 40px 0;
+    margin-top: 100px;
+  }
+  .title-h2 {
+    font-size: 15px;
+  }
+
+  .title-h1 {
+    font-size: 32px;
+  }
+
+  .title-p {
+    font-size: 13px;
+  }
+
+  .navbar-collapse {
+    background-color: rgb(23, 79, 102, 0.9);
+  }
+
+  .prof-img {
+    height: 350px;
+  }
+  .images-2,
+  .outbreak,
+  .navbar,
+  .nav-link {
+    padding: 0;
+  }
+  .img-3 {
+    width: 200px;
+  }
+
+  .navbar-toggler {
+    background-color: aliceblue;
+  }
+  .nav-link {
+    font-size: 20px;
+    padding: 0;
+    font-weight: 500;
+    color: #ffff;
+  }
+  .video {
+    width: 80%;
+    padding: 0;
+  }
+  .content-3,
+  .content-5,
+  .content-6,
+  .content-7,
+  .content-7-text,
+  .content-1 > h1 {
+    font-size: 30px;
+  }
+
+  .content-1 > h2 {
+    font-size: 18px;
+  }
+
+  .content-2 > h2,
+  .content-3 > h2,
+  .content-4 > h2,
+  .content-6 > h2 {
+    font-size: 18px;
+    padding: 70px;
+  }
+  .content-1 > p,
+  .content-7 > p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 80px;
+  }
+  .content-2 > p,
+  .content-4 > p,
+  .content-5 > p,
+  .content-6 > p {
+    font-size: 28px;
+    padding-bottom: 100px;
+    margin: 0;
+  }
+  .content-5 > p,
+  .p2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .content-5 > h2,
+  #contact > h2 {
+    padding-top: 70px;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .content-5 > h3 {
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: 500;
+  }
+
+  .content-7-text > h2 {
+    font-size: 32px;
+  }
+
+  .h22 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 507px) {
+  .EPFL-logo {
+    width: 80%;
+  }
+  .back-img {
+    width: 90%;
+  }
+  .avastavir-logo {
+    width: 75px;
+    margin: 0;
+  }
+  .upper-text {
+    padding: 0;
+    margin-top: 60px;
+  }
+  .title-h2 {
+    font-size: 9px;
+  }
+
+  .title-h1 {
+    font-size: 15px;
+  }
+
+  .title-p {
+    font-size: 10px;
+  }
+
+  .navbar-custom {
+    height: 50px;
+  }
+
+  p,
+  h2 {
+    padding: 10px;
+  }
+  .images-2 {
+    padding: 0 120px;
+  }
+  .prof-img {
+    height: 200px;
+  }
+  .videoplayer {
+    width: 200px;
+    height: 120px;
+  }
+  .back-img {
+  width: 60%;
+}
 }
